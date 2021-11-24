@@ -1,0 +1,2 @@
+class UpdateCostLog < ApplicationRecord
+end

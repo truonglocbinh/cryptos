@@ -1,0 +1,11 @@
+<h1>Hello</h1>
+<table>
+  <thead>
+    <th>Name</th>
+    <th>The cost of a single transaction</th>
+    <th>The cost of a multisig transaction</th>
+  </thead>
+  <tbody>
+    <%= render :partial => "item", :collection => @crypto_currencies, :as => :crypto_currency %>
+  </tbody>
+</table>
